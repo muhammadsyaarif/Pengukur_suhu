@@ -241,7 +241,7 @@ export default function MonitoringPage() {
           rel="noopener noreferrer"
           className="flex items-center"
         >
-          <Image src="/whatsapp-logo.png" alt="WhatsApp" width={50} height={50} />
+          <Image src="https://res.cloudinary.com/dvavtg6tx/image/upload/v1724237750/whatsapp_jqrdqr.png" alt="WhatsApp" width={50} height={50} />
         </a>
       </div>
     </div>
