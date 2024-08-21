@@ -236,7 +236,7 @@ export default function MonitoringPage() {
       {/* Logo WhatsApp placed at the bottom left corner */}
       <div className="fixed bottom-5 left-5 flex items-center space-x-2">
         <a
-          href="https://wa.me/yourwhatsapplink"
+          href="https://wa.me/6287844232534"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center"
