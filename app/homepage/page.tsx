@@ -102,10 +102,11 @@ export default function Homepage() {
           <Image
             src="/wa.png" // Ganti dengan path gambar WhatsApp yang sesuai
             alt="WhatsApp Logo"
-            width={50} // Sesuaikan dengan lebar gambar
-            height={50} // Sesuaikan dengan tinggi gambar
+            width={30} // Smaller width for the image
+            height={30} // Smaller height for the image
+            className="animate-fadeIn" // Optional fade-in animation
           />
-          <span className="ml-2 text-lg font-semibold text-blue-600">Hubungi Kami</span>
+          <span className="ml-2 text-sm font-semibold text-blue-600">Hubungi Kami</span> {/* Smaller font size */}
         </a>
       </div>
     </div>
