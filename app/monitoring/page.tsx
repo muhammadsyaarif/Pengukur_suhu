@@ -224,25 +224,25 @@ export default function MonitoringPage() {
             <Bar data={kelembapanChartData} options={{ ...options, plugins: { ...options.plugins, title: { text: 'Kelembapan' } } }} />
           </div>
         </div>
-      </div>
 
-      {/* Button to go back to homepage */}
-      <div className="fixed bottom-5 right-5">
-        <Link href="/" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md shadow-sm transition duration-300">
-          Kembali ke Homepage
-        </Link>
-      </div>
+        {/* Button to go back to homepage */}
+        <div className="flex justify-center my-4">
+          <Link href="/" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md shadow-sm transition duration-300">
+            Kembali ke Homepage
+          </Link>
+        </div>
 
-      {/* Logo WhatsApp placed at the bottom left corner */}
-      <div className="fixed bottom-5 left-5 flex items-center space-x-2">
-        <a
-          href="https://wa.me/6287844232534"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center"
-        >
-          <Image src="/wa.png" alt="wa" width={50} height={50} />
-        </a>
+        {/* Logo WhatsApp placed below the homepage button */}
+        <div className="flex justify-center">
+          <a
+            href="https://wa.me/6287844232534"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center"
+          >
+            <Image src="/wa.png" alt="wa" width={50} height={50} />
+          </a>
+        </div>
       </div>
     </div>
   );
