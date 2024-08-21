@@ -92,7 +92,22 @@ export default function Homepage() {
       </div>
 
       {/* Menempatkan WhatsApp lebih rendah */}
-      
+      <div className="flex justify-center mt-8">
+        <a
+          href="https://wa.me/6287844232534" // Ganti dengan nomor WhatsApp yang sesuai
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center"
+        >
+          <Image
+            src="/wa.png" // Ganti dengan path gambar WhatsApp yang sesuai
+            alt="WhatsApp Logo"
+            width={50} // Sesuaikan dengan lebar gambar
+            height={50} // Sesuaikan dengan tinggi gambar
+          />
+          <span className="ml-2 text-lg font-semibold text-blue-600">Hubungi Kami</span>
+        </a>
+      </div>
     </div>
   );
 }
