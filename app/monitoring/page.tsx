@@ -231,19 +231,8 @@ export default function MonitoringPage() {
             Kembali ke Homepage
           </Link>
         </div>
-
-        {/* Logo WhatsApp placed below the homepage button */}
-        <div className="flex justify-center">
-          <a
-            href="https://wa.me/6287844232534"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center"
-          >
-            <Image src="/wa.png" alt="wa" width={50} height={50} />
-          </a>
-        </div>
       </div>
     </div>
   );
 }
+
